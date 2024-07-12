@@ -12,6 +12,15 @@
     gap: 0px;
     opacity: 0px;
 }
+#sing-in{
+    width: Hug (104px)px;
+    height: Hug (43px)px;
+    padding: 12px 28px;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: white;
+
+}
 .typography{
     font-family: Poppins;
     font-size: 48px;
