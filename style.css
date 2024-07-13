@@ -1,7 +1,7 @@
 .top-bg{
     background-color: #F0FFF0;
 }
-.container{
+.row{
     margin-bottom: 80px;
     padding: 20px 40px;
 }
@@ -46,7 +46,7 @@ p{
     color: white;
     padding: 12px 36px;
 }
-.col{
+.cat{
     height: 270px;
     width: 270px;
     border-radius: 10px;
@@ -54,12 +54,12 @@ p{
     text-align: center;
     margin: 10px;
 }
-.col img{
+.cat img{
     height: 80px;
     width: 75px;
     margin-top: 50px;
 }
-.col p{
+.cat p{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -67,10 +67,32 @@ p{
     text-align: center;
     color: #6C6B6B;
 }
-.col h4{
+.cat h4{
     margin-top: 30px;
 }
 .cat-2{
     box-shadow: 2px 2px 4px #a2a1a1;
     background-color: white;
+}
+.card{
+    border: none;
+    box-shadow: 2px 2px 4px #a2a1a1;
+    border-radius: 10px;
+    text-align: left;
+}
+.buy-now-button{
+    border: none;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: white;
+    padding: 8px 28px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.card-footer img{
+    width: 24px;
+    height: 24px;
+    padding: 2px 3px;
 }
