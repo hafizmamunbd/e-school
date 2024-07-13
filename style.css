@@ -1,8 +1,8 @@
 .top-bg{
     background-color: #F0FFF0;
 }
-.row{
-    margin-top: 80px;
+.container{
+    margin-bottom: 80px;
     padding: 20px 40px;
 }
 .col-6 img{
@@ -45,4 +45,32 @@ p{
     background-color: #21B573;
     color: white;
     padding: 12px 36px;
+}
+.col{
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    text-align: center;
+    margin: 10px;
+}
+.col img{
+    height: 80px;
+    width: 75px;
+    margin-top: 50px;
+}
+.col p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #6C6B6B;
+}
+.col h4{
+    margin-top: 30px;
+}
+.cat-2{
+    box-shadow: 2px 2px 4px #a2a1a1;
+    background-color: white;
 }
